@@ -1,0 +1,20 @@
+export type Client = {
+	type: "person" | "company";
+	name: string;
+	taxId?: string;
+	email?: string;
+	phone?: string;
+	address: string;
+	addressNr: string;
+	address2?: string;
+	neighborhood?: string;
+	city: string;
+	state: string;
+	zip: string;
+	notes: string;
+	contractIds: string[];
+	createdAt: number;
+	createdBy: string;
+	updatedAt: number;
+	updatedBy: string;
+};

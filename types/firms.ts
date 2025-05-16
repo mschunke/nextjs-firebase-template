@@ -1,0 +1,20 @@
+export type Firm = {
+	type: "natural" | "legal";
+	taxId: string;
+	oabNr: string;
+	name: string;
+	address: string;
+	addressNr: string;
+	address2?: string;
+	neighborhood?: string;
+	city: string;
+	state: string;
+	zip: string;
+	phone?: string;
+	email?: string;
+	website?: string;
+	createdBy: string;
+	createdAt: number;
+	updatedAt: number;
+	users: string[];
+};
